@@ -1,8 +1,8 @@
-# Windows HTTP Time Synchronizer
-> **Solution for NTP (UDP 123) Port Blocking and Time Sync Infinite Loading**
-> **NTP(UDP 123) 포트 차단 및 윈도우 시간 동기화 무한 로딩 해결 도구**
+# WinTimeHTTP
+> **Bypass NTP (UDP 123) Port Blocking & Fix Windows Time Sync Issues**
+> **NTP(UDP 123) 포트 차단 및 윈도우 시간 동기화 문제 해결 도구**
 
-This project solves the issue where Windows time synchronization fails due to ISP firewalls (e.g., LGU+ in Korea) or corporate network restrictions that block the standard NTP port (UDP 123).
+This project solves Windows time synchronization failures caused by ISP firewalls (e.g., LGU+ in Korea) or corporate network restrictions that block the standard NTP port (UDP 123).
 이 프로젝트는 LG 유플러스 등 특정 ISP의 회선 방화벽이나 사내 보안망에서 표준 NTP 포트(UDP 123)를 차단하여 발생하는 윈도우 시간 동기화 실패 문제를 해결합니다.
 
 ---
