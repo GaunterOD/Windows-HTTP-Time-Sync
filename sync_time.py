@@ -22,7 +22,7 @@ try:
     from datetime import datetime, timedelta
 
     print("==================================================")
-    print("    Gaunter-O-Dimm HTTP 시간 동기화 엔진 v1.0")
+    print("    시간 동기화 엔진 v1.0")
     print("==================================================")
     
     url = 'https://www.google.com'
@@ -34,7 +34,6 @@ try:
     if not server_date_str:
         print(" 서버 응답에서 시간 데이터를 찾지 못했습니다.")
     else:
-        # 시간 변환 작업
         gmt_time = datetime.strptime(server_date_str, '%a, %d %b %Y %H:%M:%S %Z')
         kst_time = gmt_time + timedelta(hours=9)
         
